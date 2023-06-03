@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mangabot"
+version = "0.1.0"
+description = "A Telegram bot that informs the user if a chapter was released in BATO.TO"
+authors = ["André Carvalho <alac1984@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.24.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pynvim = "^0.4.3"
+flake8 = "^6.0.0"
+mypy = "^1.3.0"
+flake8-pyproject = "^1.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
