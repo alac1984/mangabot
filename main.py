@@ -5,5 +5,6 @@ def main():
     # Send the information for every user subscribed in the bot
     print("Hello world")
 
+
 if __name__ == "__main__":
     main()
