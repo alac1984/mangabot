@@ -11,7 +11,7 @@ python = "^3.7"
 httpx = "^0.24.1"
 
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.dependencies]
 pytest = "^7.3.1"
 pynvim = "^0.4.3"
 flake8 = "^6.0.0"
